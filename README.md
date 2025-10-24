@@ -113,36 +113,7 @@ Recall	High, especially for Malignant detection
 🧩 Key Concepts
 Logistic Regression
 
-A supervised classification algorithm that estimates probabilities using the sigmoid function:
-
-𝑃
-(
-𝑦
-=
-1
-∣
-𝑥
-)
-=
-1
-1
-+
-𝑒
-−
-(
-𝑤
-𝑇
-𝑥
-+
-𝑏
-)
-P(y=1∣x)=
-1+e
-−(w
-T
-x+b)
-1
-	​
+​
 
 
 It classifies data points by comparing predicted probability against a threshold (commonly 0.5).
