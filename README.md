@@ -1,10 +1,10 @@
-# Classification-with-Logistic-Regression
-🧠 Task 4: Classification with Logistic Regression
-📋 Objective
+
+ # 🧠 Task 4: Classification with Logistic Regression
+# 📋 Objective
 
 Build a binary classifier using Logistic Regression to predict whether a tumor is Malignant (1) or Benign (0) based on various diagnostic features from the Breast Cancer dataset.
 
-🧰 Tools and Libraries Used
+# 🧰 Tools and Libraries Used
 
 Python 3.x
 
@@ -16,7 +16,7 @@ Matplotlib / Seaborn – Data visualization
 
 Scikit-learn (sklearn) – Machine learning model building and evaluation
 
-📂 Dataset
+# 📂 Dataset
 
 Dataset Name: Breast Cancer Diagnostic Data (CSV file)
 Path (example):
@@ -29,7 +29,7 @@ id, radius_mean, texture_mean, smoothness_mean, symmetry_mean, etc.
 
 diagnosis — Target column (M = Malignant, B = Benign)
 
-⚙️ Steps and Workflow
+# ⚙️ Steps and Workflow
 1. Import Libraries
 
 All necessary Python libraries such as pandas, numpy, matplotlib, and sklearn are imported.
@@ -104,7 +104,7 @@ Plotted the sigmoid function to explain how logistic regression converts linear 
 1
 	​
 
-📈 Model Performance (Expected)
+# 📈 Model Performance (Expected)
 Metric	Typical Range
 Accuracy	95–98%
 ROC-AUC	0.98–0.99
@@ -147,7 +147,7 @@ x+b)
 
 It classifies data points by comparing predicted probability against a threshold (commonly 0.5).
 
-ROC Curve
+# ROC Curve
 
 Plots True Positive Rate (Recall) vs. False Positive Rate.
 
@@ -156,8 +156,7 @@ The closer the curve is to the top-left corner, the better the model.
 AUC (Area Under Curve) indicates the quality of classification (1.0 = perfect model).
 
 🧾 Outputs and Visuals
-
-Confusion Matrix
+# Confusion Matrix
 Displays correct vs incorrect predictions.
 
 ROC Curve
@@ -166,7 +165,7 @@ Demonstrates classifier’s ability to distinguish between classes.
 Sigmoid Function Plot
 Shows probability behavior of logistic regression.
 
-💡 Conclusion
+# 💡 Conclusion
 
 Logistic Regression effectively classifies tumors with high accuracy and AUC score.
 
@@ -174,7 +173,7 @@ Feature scaling and encoding were crucial for model performance.
 
 Threshold tuning helps adjust the model for higher recall or higher precision depending on the clinical requirement.
 
-🖥️ How to Run
+# 🖥️ How to Run
 
 Install dependencies:
 
